@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xandll</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="img/icon" href="img/icon.jpg">
+</head>
+<body>
+    <div class="toggle-container">
+        <div class="toggle-handle">
+            <i class="fas fa-cog"></i>
+        </div>
+        <button class="theme-toggle">
+            <i class="fas fa-moon"></i>
+            <span class="toggle-text">Dark</span>
+        </button>
+        <button class="lang-switch">
+            <i class="fas fa-globe"></i>
+            <span class="lang-text">EN</span>
+        </button>
+    </div>
+
+    <header>
+        <h1 data-translate="welcome">Xandll</h1>
+        <nav>
+            <a href="#projects" data-translate="projects">Projects</a>
+            <a href="#tools" data-translate="tools">Tools</a>
+            <a href="#about" data-translate="about">About</a>
+            <a href="#skills" data-translate="skills">Skills</a>
+            <a href="#timeline" data-translate="timeline">Timeline</a>
+            <a href="#connect" data-translate="connect">Connect</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" data-translate="welcome">Xandll</h1>
+            <p class="hero-subtitle" data-translate="heroSubtitle">Developer & Linux Enthusiast</p>
+            <div class="hero-cta">
+                <a href="#projects" class="cta-button" data-translate="viewProjects">View Projects</a>
+                <a href="#connect" class="cta-button secondary" data-translate="contact">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="hero-shape"></div>
+            <div class="hero-shape"></div>
+            <div class="hero-shape"></div>
+        </div>
+    </div>
+
+    <main>
+        <section id="projects" class="fade-in">
+            <h2 data-translate="projects">Projects</h2>
+            <div class="projects-grid">
+                <a href="https://github.com/Xandll/Python-File-Server" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>Python File Server</h3>
+                        <p>A file server implementation in Python</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/Xandll/Xandll" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>Xandll</h3>
+                        <p>This Website</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/Xandll/Server-Dashboard" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>Server Dashboard</h3>
+                        <p>A website for quick access to all Minecraft server Dashboards</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/Xandll/Minecraft-Server-Website" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>Minecraft Server Website</h3>
+                        <p>A website for Minecraft servers</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/Xandll/Personenverwaltung" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>Personenverwaltung</h3>
+                        <p>A person management system</p>
+                        <div class="project-tech">
+                            <span>C</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="tools" class="fade-in">
+            <h2 data-translate="tools">Tools</h2>
+            <div class="tools-grid">
+                <a href="https://status.xandll.com" target="_blank" class="tool-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3 data-translate="statusTitle">Status Monitor</h3>
+                    <p data-translate="statusDesc">Real-time system status monitoring dashboard</p>
+                </a>
+                <a href="https://timer.xandll.com" target="_blank" class="tool-card">
+                    <i class="fas fa-clock"></i>
+                    <h3 data-translate="timerTitle">Timer App</h3>
+                    <p data-translate="timerDesc">Simple and efficient countdown timer</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="fade-in">
+            <h2 data-translate="about">About Me</h2>
+            <p data-translate="aboutText">Hi! I'm a developer with a passion for Linux and open-source software. I enjoy building tools that solve real problems and make life easier.</p>
+        </section>
+
+        <section id="skills" class="fade-in">
+            <h2 data-translate="skills">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Development</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i>HTML</li>
+                        <li><i class="fab fa-css3-alt"></i>CSS</li>
+                        <li><i class="fab fa-js"></i>JavaScript</li>
+                        <li><i class="fas fa-code"></i>C</li>
+                        <li><i class="fab fa-linux"></i>Linux</li>
+                        <li class="skill-optional"><i class="fab fa-python"></i>Python (Basic)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline" class="fade-in">
+            <h2 data-translate="timeline">Development Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>2024</h3>
+                    <p data-translate="timeline2024">Launched Status Monitor & Timer App</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2023</h3>
+                    <p data-translate="timeline2023">Started developing web-based tools</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2022</h3>
+                    <p data-translate="timeline2022">Began exploring Linux system administration</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2021</h3>
+                    <p data-translate="timeline2021">First steps in programming</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="fade-in">
+            <h2 data-translate="connect">Connect</h2>
+            <div class="social-links">
+                <a href="https://github.com/Xandll" target="_blank">
+                    <i class="fab fa-github"></i>GitHub
+                </a>
+                <a href="https://discord.com/users/Xandll" target="_blank">
+                    <i class="fab fa-discord"></i>Discord
+                </a>
+                <a href="mailto:contact@xandll.com">
+                    <i class="fas fa-envelope"></i>Email
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Xandll. All rights reserved.</p>
+    </footer>
+
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
