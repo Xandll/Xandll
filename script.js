@@ -36,8 +36,8 @@ const translations = {
         about: "About Me",
         skills: "Skills",
         connect: "Connect",
-        aboutText: "Hi! I'm a developer with a passion for Linux and open-source software. I enjoy building tools that solve real problems and make life easier.",
-        heroSubtitle: "Developer & Linux Enthusiast",
+        aboutText: "Hi! I'm a Computer Science Student with a passion for Linux. I enjoy building tools that solve real problems or just for fun.",
+        heroSubtitle: "Computer Science Student & Linux Enthusiast",
         viewProjects: "View Projects",
         contact: "Contact Me",
         timeline: "Development Timeline",
@@ -53,8 +53,8 @@ const translations = {
         about: "Über Mich",
         skills: "Fähigkeiten",
         connect: "Kontakt",
-        aboutText: "Hi! Ich bin ein Entwickler mit einer Leidenschaft für Linux und Open-Source-Software. Ich entwickle gerne Tools, die echte Probleme lösen und das Leben einfacher machen.",
-        heroSubtitle: "Entwickler & Linux-Enthusiast",
+        aboutText: "Hi! Ich bin ein Informatik Schüler mit einer Leidenschaft für Linux. Ich entwickle gerne Tools, die echte Probleme lösen oder nur zum Spaß.",
+        heroSubtitle: "Informatik Schüler & Linux-Enthusiast",
         viewProjects: "Projekte Ansehen",
         contact: "Kontaktiere Mich",
         timeline: "Entwicklungs-Timeline",
@@ -230,6 +230,46 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             }
 
             requestAnimationFrame(animation);
+        }
+    });
+});
+
+// Add this code near the end of your script.js file
+document.querySelector('.discord-link').addEventListener('click', (e) => {
+    e.preventDefault();
+    // Copy Discord username to clipboard
+    navigator.clipboard.writeText('Xandll');
+    
+    // Change tooltip text temporarily to show it was copied
+    const tooltip = e.currentTarget.querySelector('.discord-tooltip');
+    const originalText = tooltip.textContent;
+    tooltip.textContent = 'Copied!';
+    
+    // Reset tooltip text after 2 seconds
+    setTimeout(() => {
+        tooltip.textContent = originalText;
+    }, 2000);
+});
+
+// Add this with your other JavaScript code
+document.addEventListener('DOMContentLoaded', function() {
+    const discordLink = document.querySelector('.discord-link');
+    const discordPopup = document.getElementById('discordPopup');
+    const closePopup = document.querySelector('.close-popup');
+
+    discordLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        discordPopup.style.display = 'flex';
+    });
+
+    closePopup.addEventListener('click', function() {
+        discordPopup.style.display = 'none';
+    });
+
+    // Close popup when clicking outside
+    window.addEventListener('click', function(e) {
+        if (e.target === discordPopup) {
+            discordPopup.style.display = 'none';
         }
     });
 });
