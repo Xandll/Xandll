@@ -121,7 +121,6 @@ h2 {
     margin-bottom: 2rem;
     background: none;
     color: var(--primary-color);
-    -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
 }
 
@@ -674,7 +673,6 @@ section h2::after {
         var(--primary-color),
         var(--accent-color)
     );
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: titleReveal 1s ease forwards;
 }

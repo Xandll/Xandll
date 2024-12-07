@@ -36,6 +36,7 @@ const translations = {
         about: "About Me",
         skills: "Skills",
         connect: "Connect",
+        development: "Development",
         aboutText: "Hi! I'm a Computer Science Student with a passion for Linux. I enjoy building tools that solve real problems or just for fun.",
         heroSubtitle: "Computer Science Student & Linux Enthusiast",
         viewProjects: "View Projects",
@@ -44,7 +45,14 @@ const translations = {
         timeline2024: "Advanced JavaScript & C programming, Linux system administration",
         timeline2023: "Advanced HTML/CSS, Introduction to C and Linux fundamentals",
         timeline2022: "Started learning HTML & CSS at school",
-        timeline2021: "First steps in programming with Python basics"
+        timeline2021: "First steps in programming with Python basics",
+        fileServerDesc: "A file server implementation in Python",
+        websiteDesc: "This Website",
+        dashboardDesc: "A website for quick access to all Minecraft server Dashboards",
+        mcWebsiteDesc: "A website for Minecraft servers",
+        personDesc: "A person management system for CSV files",
+        statusDesc: "Real-time system status monitoring dashboard",
+        timerDesc: "Simple and efficient countdown timer"
     },
     de: {
         welcome: "Xandll",
@@ -53,15 +61,23 @@ const translations = {
         about: "Über Mich",
         skills: "Fähigkeiten",
         connect: "Kontakt",
+        development: "Entwicklung",
         aboutText: "Hi! Ich bin ein Informatik Schüler mit einer Leidenschaft für Linux. Ich entwickle gerne Tools, die echte Probleme lösen oder nur zum Spaß.",
         heroSubtitle: "Informatik Schüler & Linux-Enthusiast",
         viewProjects: "Projekte Ansehen",
         contact: "Kontaktiere Mich",
         timeline: "Entwicklungs-Timeline",
-        timeline2024: "JS & C (Vertiefung), Linux-Administration (Schule & Freizeit)",
-        timeline2023: "HTML/CSS (Vertiefung), C & Linux Grundlagen (Schule & Freizeit)",
+        timeline2024: "JS & C (Vertiefung), Linux-Administration",
+        timeline2023: "HTML/CSS (Vertiefung), C & Linux Grundlagen",
         timeline2022: "HTML & CSS Grundlagen (Schule)",
-        timeline2021: "Python Grundlagen (Selbststudium)"
+        timeline2021: "Python Grundlagen (Selbststudium)",
+        fileServerDesc: "Eine Dateiserverimplementierung in Python",
+        websiteDesc: "Diese Website",
+        dashboardDesc: "Eine Website für den schnellen Zugriff auf alle Minecraft-Server-Dashboards",
+        mcWebsiteDesc: "Eine Website für Minecraft-Server",
+        personDesc: "Ein Personenverwaltungssystem für CSV-Dateien",
+        statusDesc: "Echtzeit-Systemstatus-Überwachung",
+        timerDesc: "Einfacher und effizienter Countdown-Timer"
     }
 };
 
