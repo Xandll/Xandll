@@ -41,10 +41,10 @@ const translations = {
         viewProjects: "View Projects",
         contact: "Contact Me",
         timeline: "Development Timeline",
-        timeline2024: "Launched Status Monitor & Timer App",
-        timeline2023: "Started developing web-based tools",
-        timeline2022: "Began exploring Linux system administration",
-        timeline2021: "First steps in programming"
+        timeline2024: "Advanced JavaScript & C programming, Linux system administration",
+        timeline2023: "Advanced HTML/CSS, Introduction to C and Linux fundamentals",
+        timeline2022: "Started learning HTML & CSS at school",
+        timeline2021: "First steps in programming with Python basics"
     },
     de: {
         welcome: "Xandll",
@@ -58,10 +58,10 @@ const translations = {
         viewProjects: "Projekte Ansehen",
         contact: "Kontaktiere Mich",
         timeline: "Entwicklungs-Timeline",
-        timeline2024: "Status Monitor & Timer App veröffentlicht",
-        timeline2023: "Beginn der Entwicklung webbasierter Tools",
-        timeline2022: "Erste Schritte in Linux-Systemadministration",
-        timeline2021: "Erste Schritte im Programmieren"
+        timeline2024: "JS & C (Vertiefung), Linux-Administration (Schule & Freizeit)",
+        timeline2023: "HTML/CSS (Vertiefung), C & Linux Grundlagen (Schule & Freizeit)",
+        timeline2022: "HTML & CSS Grundlagen (Schule)",
+        timeline2021: "Python Grundlagen (Selbststudium)"
     }
 };
 
