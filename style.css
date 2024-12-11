@@ -57,6 +57,8 @@ header {
     -webkit-backdrop-filter: blur(12px);
     z-index: 1000;
     box-shadow: 0 2px 10px var(--shadow-color);
+    display: flex;
+    justify-content: flex-end;
 }
 
 header.scrolled {
@@ -72,6 +74,7 @@ nav {
     display: flex;
     gap: 2rem;
     z-index: 1001;
+    padding: 0.5rem 0;
 }
 
 nav a {
@@ -673,6 +676,8 @@ section h2::after {
         var(--primary-color),
         var(--accent-color)
     );
+    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: titleReveal 1s ease forwards;
 }
