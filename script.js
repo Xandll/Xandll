@@ -35,6 +35,12 @@ const translations = {
         tools: "Tools",
         about: "About Me",
         skills: "Skills",
+        potentasticProjDesc: "Potentastic, a simple way to learn the powers of 2",
+        fileServerProjDesc: "A file server implementation in Python",
+        websiteProjDesc: "This Website",
+        dashboardProjDesc: "A website for quick access to all Minecraft server Dashboards",
+        mcWebsiteProjDesc: "A website for Minecraft servers",
+        personProjDesc: "A person management system for CSV files",
         connect: "Connect",
         development: "Development",
         aboutText: "Hi! I'm a Computer Science Student with a passion for Linux. I enjoy building tools that solve real problems or just for fun.",
@@ -51,7 +57,7 @@ const translations = {
         dashboardDesc: "A website for quick access to all Minecraft server Dashboards",
         mcWebsiteDesc: "A website for Minecraft servers",
         personDesc: "A person management system for CSV files",
-        statusDesc: "Real-time system status monitoring dashboard",
+        statusDesc: "Potentastic, a simple way to learn the powers of 2",
         timerDesc: "Simple and efficient countdown timer"
     },
     de: {
@@ -60,6 +66,12 @@ const translations = {
         tools: "Tools",
         about: "Über Mich",
         skills: "Fähigkeiten",
+        potentasticProjDesc: "Potentastic, ein einfacher Weg die Potenzen von 2 zu lernen",
+        fileServerProjDesc: "Eine Dateiserverimplementierung in Python",
+        websiteProjDesc: "Diese Website",
+        dashboardProjDesc: "Eine Website für den schnellen Zugriff auf alle Minecraft-Server-Dashboards",
+        mcWebsiteProjDesc: "Eine Website für Minecraft-Server",
+        personProjDesc: "Ein Personenverwaltungssystem für CSV-Dateien",
         connect: "Kontakt",
         development: "Entwicklung",
         aboutText: "Hi! Ich bin ein Informatik Schüler mit einer Leidenschaft für Linux. Ich entwickle gerne Tools, die echte Probleme lösen oder nur zum Spaß.",
@@ -76,7 +88,7 @@ const translations = {
         dashboardDesc: "Eine Website für den schnellen Zugriff auf alle Minecraft-Server-Dashboards",
         mcWebsiteDesc: "Eine Website für Minecraft-Server",
         personDesc: "Ein Personenverwaltungssystem für CSV-Dateien",
-        statusDesc: "Echtzeit-Systemstatus-Überwachung",
+        statusDesc: "Ein einfacher weg die Potenzen von 2 zu lernen",
         timerDesc: "Einfacher und effizienter Countdown-Timer"
     }
 };
